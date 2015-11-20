@@ -493,3 +493,22 @@ Started GET "/assets/application.self.css?body=1" for ::1 at 2015-07-23 13:57:16
 
 
 Started GET "/assets/application.self.js?body=1" for ::1 at 2015-07-23 13:57:16 -0700
+
+
+Started GET "/movies" for ::1 at 2015-11-20 16:22:33 -0200
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (28.9ms)
+Completed 200 OK in 479ms (Views: 456.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self.css?body=1" for ::1 at 2015-11-20 16:22:34 -0200
+
+
+Started GET "/assets/jquery.self.js?body=1" for ::1 at 2015-11-20 16:22:34 -0200
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for ::1 at 2015-11-20 16:22:34 -0200
+
+
+Started GET "/assets/application.self.js?body=1" for ::1 at 2015-11-20 16:22:34 -0200
